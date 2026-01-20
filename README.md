@@ -4,6 +4,9 @@ This project demonstrates a complete CI/CD pipeline where code changes pushed to
 
 The pipeline removes manual deployment steps and ensures that every update is instantly reflected on the live website.
 
+🧠 Architecture Overview
+Local Machine → GitHub → Jenkins → AWS EC2 → Nginx → Browser
+
 🎯 Project Objective
 
 To implement an end-to-end CI/CD workflow using Jenkins that automatically deploys application code to a Linux server whenever changes are pushed to GitHub.
